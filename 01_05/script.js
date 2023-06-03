@@ -33,7 +33,7 @@ const backpack = {
     updateBackpack(`Strap lengths updated.`);
   },
 };
-
+//backpack.toggleLid(true) will change the status of lid
 const markup = (backpack) => {
   return `
   <div>
