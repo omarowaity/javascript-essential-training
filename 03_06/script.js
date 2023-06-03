@@ -22,3 +22,7 @@ const backpack = {
 };
 
 console.log("The backpack object:", backpack);
+
+//Example of using the bracket notation
+var query = "pocketNum";
+console.log(backpack[query]);
