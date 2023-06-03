@@ -23,4 +23,10 @@ const backpack = {
     this.strapLength.left = lengthLeft;
     this.strapLength.right = lengthRight;
   },
+  changeVolume(v){
+    this.volume = v;
+  },
 };
+
+backpack.changeVolume(4);
+//this method call will change the volume from 30 to 4
